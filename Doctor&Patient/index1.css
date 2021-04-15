@@ -1,0 +1,532 @@
+html{
+    scroll-behavior:smooth;
+}
+#wrapper{
+            height:auto;
+            width:auto;
+            overflow:hidden;
+        } 
+body{
+    margin:0;
+}
+
+#header{
+        background:linear-gradient(70deg,darkcyan,#3DB8FF);
+        height: 40px;
+        width:auto;
+        margin-top:-25px;
+        }
+#header img{
+             border:1px;
+             border-radius:25px;
+             
+          }
+
+#logo{
+        height:auto;
+        width:auto;
+        display: block;
+        margin-left: 110px;
+        float: left;
+     }
+       
+#logo img{
+          width:100px;
+          height:100px;
+        }
+
+.menu{
+     display: none;
+    }
+       
+        
+#navbar{
+        width:100%px;
+        height:70px;
+        display: block;
+        margin-left: 240px;
+       
+        }
+
+#banner{
+        background-color:white;
+        height:auto;
+        width:100%;
+        margin-top:40px;
+        padding-bottom: 50px;
+        margin-bottom:5px;
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+        display: block;
+        }
+
+#slide{
+        margin-top: 10px;
+    
+      }
+#div{
+    background-color: white;
+    width:auto;
+    margin-top: 30px;
+}        
+#div1{
+        background-color:crimson;
+        height: 70px;
+        width: 350px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 15px;
+        border-radius:24px;
+        margin-left:30px;  
+        }
+#div1 i{
+        color: white;
+       font-size: 40px;
+       float: left;
+       margin-left: 20px;
+       margin-top:-10px;
+       margin-right: 10px;
+}
+
+
+
+#div2{
+        background-color:darkcyan;
+        height: 70px;
+        width: 350px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 15px;
+        border-radius:24px;
+        }
+#div2 img{
+            float: left;
+            border-top-left-radius: 20px;
+            margin-left:40px;
+            margin-top:15px;
+            margin-right: 10px
+          }
+
+#div3{
+        background-color:crimson;
+        height:70px;
+        width: 350px;
+        float: left;
+        padding-top:10px;
+        margin-top: 15px;
+        border-radius:24px;
+        
+        }
+
+#div3 i{
+       font-size: 40px;
+       float: left;
+       margin-left: 20px;
+       margin-top:-10px;
+       color: white;
+       margin-right: 10px;
+}
+
+
+#div4{
+     background-color:darkcyan;
+     height: 70px;
+     width: 350px;
+     float: left;
+     margin-top: 15px;
+     padding-top: 10px;
+     border-radius:24px;
+     }
+#div4 i{
+       color: white;
+       font-size: 40px;
+       float: left;
+       margin-left: 20px;
+       margin-top:-10px;
+       margin-right: 10px;
+}
+
+#service{
+            background-color:white;
+            height: 600px;
+            width: 300px;
+            float:right;
+            margin-top:25px;
+          }
+#service ol{
+          font-size: 18px;
+          list-style:none;
+          padding-left:20px;
+          float: left;
+          display: block;
+}
+
+#service h1{
+          font-family: .font1;
+          font-size: 22px;
+          font-style: italic;
+          font-family:sans-serif;
+          color:cornflowerblue
+          }
+#service ol i{
+          font-size: 30px;
+          color: green;
+          border: 1px solid black;
+          padding:3px;
+          margin: 10px;
+}
+#service ol a{
+             text-decoration: none;
+}
+#service ol a:hover{
+             color: red;
+             
+}
+
+#excellence{
+            background-color:white;
+            height: 480px;
+            width: 1190px;
+            float: left;
+            margin-top:25px;
+           
+     }
+#excellence h1{
+          font-size: 22px;
+          font-style: italic;
+          font-family:sans-serif;
+          color:cornflowerblue;
+          text-align: center;
+        }  
+    
+#excellence1{
+        background-color:aqua;
+        height: 180px;
+        width: 260px;
+        float: left;
+        margin:0 15 15 15px;
+        margin-left: 30px;
+        overflow:hidden;
+        background-image: url(images/children1.jpg);
+        background-size:cover;
+       
+        
+     }
+
+
+#excellence2{
+        background-color:antiquewhite;
+        height: 180px;
+        width: 260px;
+        float: left;
+        margin:0 15 15 15px;
+        overflow:hidden;
+        background-image: url(images/covid19.jpg);
+        background-size:cover;
+        }
+
+
+
+#excellence3{
+        background-color:aqua;
+        height: 180px;
+        width: 260px;
+        float: left;
+        margin:0 15 15 15px;
+        overflow:hidden;
+        background-image: url(images/heart1.webp);
+        background-size:cover;
+        }
+
+
+
+#excellence4{
+        background-color:antiquewhite;
+        height: 180px;
+        width: 260px;
+        float: left;
+        margin:0 15 15 15px;
+        overflow:hidden;
+        background-image: url(images/cancer.jpg);
+        background-size:cover;
+        }
+
+
+
+#excellence5{
+        background-color:antiquewhite;
+        height: 180px;
+        width: 260px;
+        float: left;
+        margin:0 15 15 15px;
+        margin-left: 30px;
+        overflow:hidden;
+        background-image: url(images/newral.webp);
+        background-size:cover;
+        }
+
+
+
+#excellence6{
+        background-color:aqua;
+        height: 180px;
+        width: 260px;
+        float: left;
+        margin:0 15 15 15px;
+        overflow:hidden;
+        background-image: url(images/orthopedic2.jpg);
+        background-size:contain;
+        }
+
+
+#excellence7{
+            background-color:antiquewhite;
+            height: 180px;
+            width: 260px;
+            float: left;
+            margin:0 15 15 15px;
+            overflow:hidden;
+            background-image: url(images/urology.jpg);
+            background-size:cover;
+        }
+
+#excellence8{
+        background-color:aqua;
+        height: 180px;
+        width: 260px;
+        float: left;
+        margin:0 15 15 15px;
+        overflow:hidden;
+        background-image: url(images/spine.jpg);
+        background-size:cover;
+     }
+#subexcellence{
+    background-color:rgb(225,0,0,.4);
+    background-blend-mode:overlay;
+    height: 180px;
+    width: 260px;
+    color: white;
+    font-size:20px;
+    text-align:center;
+    padding-top:10px;
+    margin-top:130px;
+    transition:all .5s;
+}
+#excellence1:hover>#subexcellence{
+    margin-top: -0px;
+    padding-top: 80px;
+}
+#excellence2:hover>#subexcellence{
+    margin-top: -0px;
+    padding-top: 80px;
+}
+#excellence3:hover>#subexcellence{
+    margin-top: -0px;
+    padding-top: 80px;
+}
+#excellence4:hover>#subexcellence{
+    margin-top: -0px;
+    padding-top: 80px;
+}
+#excellence5:hover>#subexcellence{
+    margin-top: -0px;
+    padding-top: 80px;
+}
+#excellence6:hover>#subexcellence{
+    margin-top: -0px;
+    padding-top: 80px;
+}
+#excellence7:hover>#subexcellence{
+    margin-top: -0px;
+    padding-top: 80px;
+}
+#excellence8:hover>#subexcellence{
+    margin-top: -0px;
+    padding-top: 80px;
+}
+
+@font-face{
+            font-family:font1;
+            src:url(font/Sketch3D.otf);
+        }
+
+@font-face{
+            font-family:font2;
+            src:url(font/JFRocOut.ttf);
+        }
+        
+#header h1 a{
+            text-decoration: none;
+            padding-left: 20px;
+            font-size:20px;
+            color: white;   
+        }
+        
+        
+#fblogo{
+            padding-left:600px;
+        }
+#navbar ul{
+            float: left;
+        }
+#navbar ul{
+            list-style: none;
+            padding: 0px;
+             
+    
+        }
+#navbar ul li{
+            width: 130px;
+            height: 50px;
+            float: left;
+            text-align: center;
+            border:1px solid white;
+            line-height: 50px;
+            background-color: white;
+            padding: 0px;
+            position: relative;
+            font-size: 12px;
+            display:block;
+            
+        }
+#navbar ul li a{
+            
+            text-decoration: none;
+            color:black;
+            display: block;
+       }
+        
+#navbar ul li:hover{
+            background-color:silver;
+            z-index:100;
+            display: block;
+        }
+ #navbar ul ul{
+            display: none;
+        }
+#navbar ul li:hover > ul{
+            display:block;
+        }
+#navbar ul ul ul{
+            margin-left: 130px;
+            position:absolute;
+            top: 0px;
+        }
+
+h3 p{
+        font-size:20px;
+        margin-left: 20px;
+        margin-top: 20px;
+   }
+h3 a{
+         text-decoration: none;
+            color:floralwhite;
+            display: block;
+        }
+a:hover{
+        color: black;
+       }
+
+
+#about_us{
+        background-color:white;
+        height:auto;
+        width:auto;
+        color:royalblue;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 20px;
+        float: left;
+        text-align: center;
+       position: relative;
+     border-top:1px solid black;
+     border-bottom:1px solid black;
+}
+#map{
+    color:crimson;
+    float: left;
+    margin-top: 50px;
+    margin-left:;
+    position:relative;
+    margin-left:220px ;
+    border: 1px dotted black;
+    height: 350px;
+    text-align: center;
+    padding: 0;
+    
+   
+}
+#video{
+   color:crimson;
+    margin-top:50px;
+    float: left;
+    margin-left:150px;
+     border: 1px solid black;
+    position: relative;
+    text-align: center;
+    
+}
+video{
+    height: 300px;
+    width: 500px;
+    margin-top:-10px;
+}
+#footer{
+        height: auto;
+        float: left;
+        width: 100%;
+        color:azure;
+        padding-top: 20px;
+      }
+#up_footer{
+        background-color:#424451;
+        height:180px;
+        width:100% ;
+        color:azure;
+        padding-left: 40px;
+        padding-top:10px ;
+      }
+#up_footer ul li{
+    list-style: none;
+}
+#up_footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+#location{
+    color: whitesmoke;
+    font-size: 12px;
+    float: left;
+    color: whitesmoke;
+    margin-left:10%
+    
+}
+#usefulLink{
+    float: left;
+    font-size: 12px;
+    margin-left: 10%;
+}
+#usefulLink2{
+    float: left;
+    font-size: 12px;
+    margin-left: 10%;
+}
+#quicklink{
+    float: left;
+    font-size: 12px;
+    margin-left: 10%;
+}
+hr.hr1{
+    display: none;
+     
+}
+#button_footer{
+        background-color:#363741;
+        height: 40px;
+        width:100% ;
+        color:azure;
+        padding-left: 120px;
+        padding-top: 20px;
+        
+}

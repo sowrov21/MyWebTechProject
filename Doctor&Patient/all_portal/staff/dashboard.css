@@ -1,0 +1,143 @@
+
+.dashboard{
+
+  width: 95%;
+  overflow: hidden;
+ margin: -22px 0px;
+ padding: 95px; 
+}
+ .dashboard ul{
+  padding: 0px;
+  margin: 0px;
+
+}
+.dashboard ul li{
+  list-style: none;
+  float: left;
+  width: 25%;
+  height: 150px;
+  background:green;
+  margin: 40px 30px 30px;
+
+}
+.dashboard ul li .admin{
+  height: 75%;
+  background: seagreen;
+}
+.dashboard ul li .doctor{
+  height: 75%;
+  background: teal;
+}
+.dashboard ul li .stuff{
+  height: 75%;
+  background: indigo;
+}
+.dashboard ul li .patient{
+  height: 75%;
+  background: maroon;
+}
+.dashboard ul li .active{
+  height: 75%;
+  background: purple;
+}
+.dashboard ul li .inactive{
+  height: 75%;
+  background: olive;
+}
+ .dashboard ul li .footer{
+  position: relative;
+  top: 70px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: gray;
+  text-align: center;
+
+}
+.dashboard ul li .footer a{
+  
+  color: black;
+
+}
+.dashboard ul li .footer a:hover{
+  
+  color: white;
+
+}
+ .wrapper.bar{
+  width: 100%;
+  height: 8%;
+  position: fixed;
+  top: -607px;
+  left: 0px;
+  background-color: lightgray;
+  padding: 15px 40px;
+}
+.wrapper .Header .header *{
+  color: black;
+}
+.wrapper .Header .header ul{
+  position: relative;
+  top: -67px;
+  float: right;
+  padding: 0px;
+  list-style: none;
+}
+.wrapper .Header .header ul li{
+  float: left;
+  position: relative;
+}
+.wrapper .Header .header ul li ul{
+  position: absolute;
+  top: 65px;
+  right: 00px;
+  width: 300px;
+  display: none;
+
+
+}
+.wrapper .Header .header ul li:hover ul{
+  display: block;
+}
+.wrapper .Header .header ul li ul li{
+  width: 100%;
+
+}
+.wrapper .Header .header ul li ul li .logout:hover{
+  color: red;
+
+}
+
+.wrapper .Header .header ul li ul li a{
+
+  width: 100%;
+  padding: 18px 10px;
+  background: white;
+  position: relative;
+  top: -16px;
+  left: 80px;
+  text-align: left;
+  background: lightgray;
+}
+.wrapper .Header .header ul li ul li a:hover{
+  background: gray;
+
+}
+.wrapper .Header .header ul li a{
+
+
+  display: block;
+  padding: 15px 20px;
+  font-size: 14px;
+  text-decoration: none;
+
+}
+.wrapper .Header .header ul li a:hover{
+  color: white;
+  background: #057A7A;
+  transition: 0.5s;
+}
+
+
+
+

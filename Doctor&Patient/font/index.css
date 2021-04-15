@@ -1,0 +1,327 @@
+#wrapper{
+            height:auto;
+            width:auto;
+            overflow:hidden;
+        } 
+
+#header{
+        background:linear-gradient(70deg,darkcyan,#3DB8FF);
+        height: 40px;
+        width:auto;
+        margin-top:-25px;
+        }
+#header img{
+             border:1px;
+             border-radius:25px;
+             
+          }
+#logo{
+        height:auto;
+        width:auto;
+        display: block;
+        margin-left: 110px;
+        float: left;
+     }
+       
+#logo img{
+          width:100px;
+          height:100px;
+        }
+
+.menu{
+     display: none;
+    }
+       
+        
+#navbar{
+        width:100%px;
+        height:70px;
+        display: block;
+        margin-left: 240px;
+       
+        }
+
+#banner{
+        background-color:white;
+        height:300px;
+        width:auto;
+        margin-top:40px;
+        margin-bottom:5px;
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+        display: block;
+             
+            
+           
+        }
+
+#slide{
+        margin-left:300px;
+        margin-top: 10px;
+        width:auto; 
+        height: 400px;
+        
+      }
+        
+#div1{
+        background-color:crimson;
+        height: 70px;
+        width: 350px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 15px;
+        border-radius:24px;
+        text-align: center;
+        margin-left:30px;
+            
+        } 
+#div1 img{
+            float: left;
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            margin-top: -10px;
+            
+            
+        }
+
+#div2{
+        background-color:darkcyan;
+        height: 70px;
+        width: 350px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 15px;
+        border-radius:24px;
+        text-align: center;
+        }
+
+#div3{
+        background-color:crimson;
+        height:70px;
+        width: 350px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 15px;
+        border-radius:24px;
+        text-align: center;
+        }
+
+#div4{
+     background-color:darkcyan;
+     height: 70px;
+     width: 350px;
+     float: left;
+     margin-top: 15px;
+     padding-top: 10px;
+     border-radius:24px;
+     text-align: center;
+        }
+
+#service{
+            background-color:white;
+            height: 600px;
+            width: 300px;
+            float:right;
+            margin-top:25px;
+            .border: 1px solid antiquewhite;
+            
+          }
+#service ol{
+          font-size: 18px;
+          list-style:none;
+          padding-left:20px;
+          float: left;
+          display: block;
+}
+
+#service h1{
+          font-family: .font1;
+          font-size: 22px;
+          font-style: italic;
+          font-family:sans-serif;
+          color:cornflowerblue
+          }
+#service ol i{
+          font-size: 30px;
+          color: green;
+          border: 1px solid black;
+          padding:3px;
+          margin: 10px;
+}
+#service ol a{
+             text-decoration: none;
+}
+#service ol a:hover{
+             color: red;
+             
+}
+
+#news{
+            background-color:;
+            height: 480px;
+            width: 1190px;
+            float: left;
+            margin-top:0px;
+     }
+         
+    
+#news1{
+            background-color:aqua;
+            height: 180px;
+            width: 260px;
+            float: left;
+            margin:0 15 15 15px;
+            margin-left: 30px;
+     }
+
+#news2{
+            background-color:antiquewhite;
+            height: 180px;
+            width: 260px;
+            float: left;
+             margin:0 15 15 15px;
+        }
+
+#news3{
+            background-color:aqua;
+            height: 180px;
+            width: 260px;
+            float: left;
+             margin:0 15 15 15px;
+        }
+
+#news4{
+            background-color:antiquewhite;
+            height: 180px;
+            width: 260px;
+            float: left;
+             margin:0 15 15 15px;
+        }
+
+#news5{
+            background-color:antiquewhite;
+            height: 180px;
+            width: 260px;
+            float: left;
+            margin:0 15 15 15px;
+            margin-left: 30px;
+        }
+
+#news6{
+            background-color:aqua;
+            height: 180px;
+            width: 260px;
+            float: left;
+            margin:0 15 15 15px;
+        }
+
+#news7{
+            background-color:antiquewhite;
+            height: 180px;
+            width: 260px;
+            float: left;
+            margin:0 15 15 15px;
+        }
+
+#news8{
+            background-color:aqua;
+            height: 180px;
+            width: 260px;
+            float: left;
+            margin:0 15 15 15px;
+       }
+@font-face{
+            font-family:font1;
+            src:url(font/Sketch3D.otf);
+        }
+
+@font-face{
+            font-family:font2;
+            src:url(font/JFRocOut.ttf);
+        }
+        
+#header h1 a{
+            text-decoration: none;
+            padding-left: 20px;
+            font-size:20px;
+            color: white;   
+        }
+        
+        
+#fblogo{
+            padding-left:800px;
+        }
+#navbar ul{
+            float: left;
+        }
+ul{
+            list-style: none;
+            padding: 0px;
+             
+    
+        }
+ul li{
+            width: 130px;
+            height: 50px;
+            float: left;
+            text-align: center;
+            border:1px solid white;
+            line-height: 50px;
+            background-color: white;
+            padding: 0px;
+            position: relative;
+            font-size: 12px;
+            display:block;
+            
+        }
+ul li a{
+            
+            text-decoration: none;
+            color:black;
+            display: block;
+       }
+        
+ul li:hover{
+            background-color:silver;
+            z-index:100;
+            display: block;
+        }
+ul ul{
+            display: none;
+        }
+ul li:hover > ul{
+            display:block;
+        }
+ul ul ul{
+            margin-left: 130px;
+            position:absolute;
+            top: 0px;
+        }
+
+h3 p{
+        font-size:20px;
+        margin-left: 20px;
+        margin-top: 20px;
+   }
+h3 a{
+         text-decoration: none;
+            color:floralwhite;
+            display: block;
+        }
+a:hover{
+        color: black;
+       }
+#footer{
+        background-color:#404657;
+        height: 40px;
+        float: left;
+        width: 1460px;
+        color:azure;
+        padding-left: 40px;
+        padding-top: 20px;
+      }
+       
+#news h1{
+          font-family: font2;
+          text-align: center;
+        }

@@ -1,0 +1,48 @@
+
+#search{
+	
+	margin-left:30%;
+	margin-bottom:;
+	
+}
+.search{
+	width:250px;
+	padding:5px;
+}
+#button{
+	border-radius:14px;
+	font-size:18px;
+	color:green;
+	padding:2px 14px 4px 14px;
+}
+
+
+table{
+         width: 90%;
+		 margin-left:5%;
+		 border-bottom:2px solid #009879;
+      }
+	  table th{
+		  background-color:#009879;
+	  }
+ table,th,td{
+           
+           border-collapse: collapse;
+           text-align: center;
+           background-color:;
+           font-size:16px;
+		   padding:20px;
+            
+        }
+thead tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: left;
+      font-weight: bold;
+}
+tbody tr:nth-of-type(even) {
+                          background-color: #f3f3f3;
+                      }
+ a{
+	 text-decoration: none;
+ }

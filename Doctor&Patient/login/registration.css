@@ -1,0 +1,392 @@
+body
+{
+	background-image: url("./img/bg.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	margin-top: 40px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	outline: none!important;
+}
+h1{
+	text-align: center;
+	font-family:Segoe Marker;
+	text-decoration: underline;
+	margin:10px 50px 500px;
+}
+
+h2{
+	margin: 0px 0px 10px;
+	text-align: center;
+	
+}
+
+.login{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,.4);
+	z-index: -1;	
+}
+
+.regform
+{
+	width: 650px;
+	background-color: rgb(0,0,0,.6);
+	margin: -480px 380px 0px;
+	color: #ffffff;
+	padding: 0px 0px 5px 0px;
+	text-align: center;
+	border-radius: 5px 5px 0px 0px;
+
+}
+
+.main
+{
+	background-color: 	#E9F8FF;
+	width: 650px;
+	height: 540px;
+	position: relative;
+	left: 26px;
+	padding: 50 22px;
+	margin: auto;
+}
+
+.form
+{
+	padding: 10px;
+}
+
+.nameLabel
+{
+	position: relative;
+	left: 100px;
+	top: 15px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.firstname {
+	position: relative;
+	left: 125px;
+	top: 15px;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+.lastname {
+	position: relative;
+	left: 352px;
+	top: -20px;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+.usernameLabel
+{
+	position: relative;
+	left: 70px;
+	top: -7px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+.username {
+	position: relative;
+	left: 93px;
+	top: -7px;
+	line-height: 30px;
+	border-radius: 6px;
+	padding: 0 88px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+.emailLabel
+{
+	position: relative;
+	left: 100px;
+	top: 7px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+.email {
+	position: relative;
+	left: 122px;
+	top: 7px;
+	line-height: 30px;
+	border-radius: 6px;
+	padding: 0 88px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+.passwordLabel
+{
+	position: relative;
+	left: 74px;
+	top: 22px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+.password {
+	position: relative;
+	left: 94px;
+	top: 22px;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+.confirmpassword {
+	position: relative;
+	left: 349px;
+	top: -12px;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+
+.contactLabel
+{
+	position: relative;
+	left: 80px;
+	top: 2px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+.contacts {
+	position: relative;
+	left: 102px;
+	top: 2px;
+	line-height: 30px;
+	border-radius: 6px;
+	padding: 0 88px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+.genderLabel
+{
+	position: relative;
+	left: 89px;
+	top: 13px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+.gender {
+    display: inline;
+  	position: relative;
+  	left: 80px;
+	top: 13px;
+  	padding-left: 35px;
+  	font-size: 17px;
+
+}
+.dobLabel
+{
+	position: relative;
+	left: 80px;
+	top: 20px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+.dob {
+	position: relative;
+	left: 100px;
+	top: 20px;
+	line-height: 30px;
+	border-radius: 6px;
+	padding: 0 18px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+.professionLabel
+{
+	position: relative;
+	left: 68px;
+	top: 42px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+.profession {
+	position: relative;
+	left: 90px;
+	top: 42px;
+	height: 3px;
+	border-radius: 5px;
+	padding: 0 8px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+.departmentLabel
+{
+	position: relative;
+	left: 365px;
+	top: -20px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+.department {
+	position: relative;
+	left: 260px;
+	top: 7px;
+	height: 35px;
+	border-radius: 5px;
+	padding: 0 0px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+.addressLabel
+{
+	position: relative;
+	left: 82px;
+	top: 20px;
+	color: black;
+	font-size: 18px;
+	font-weight: 100;
+}
+.address {
+	position: relative;
+	left: 105px;
+	top: 20px;
+	line-height: 50px;
+	border-radius: 6px;
+	padding: 0 88px;
+	font-size: 14px;
+	text-align: center;
+	transition:box-shadow .5s ease;
+	box-shadow: 0px 0px 1px darkgray;
+}
+
+input:focus{
+	box-shadow: 0px 0px 15px black;
+
+}
+
+button{
+	position: relative;
+	left: 390px;
+	top: 35px;
+	height: 50px;
+	border-radius: 10px;
+	padding: 0px 35px;
+	color:black;
+	background-color: limegreen;
+	border:none;
+	cursor: pointer;
+	font-size: 17px;
+	transition:box-shadow .2s ease;
+}
+button:focus{
+	box-shadow: 0px 0px 10px black;
+}
+.firstname_error_D{
+	position:relative;
+	left: 180px;
+	top:20px;
+	color: #ff1f1f;
+}
+.lastname_error_D{
+	position:relative;
+	left: 360px;
+	top:-17px;
+	color: #ff1f1f;
+}
+
+.username_error_D{
+	position:relative;
+	left: 180px;
+	top: 0px;
+	color: #ff1f1f;
+}
+
+.email_error_D{
+	position:relative;
+	left: 180px;
+	top:12px;
+	color: #ff1f1f;
+}
+
+.password_error_D{
+	position:relative;
+	left: 180px;
+	top: 28px;
+	color: #ff1f1f;
+}
+
+.confirmpassword_error_D{
+	position:relative;
+	left: 350px;
+	top: -5px;
+	color: #ff1f1f;
+}
+
+
+.contacts_error_D{
+	position:relative;
+	left: 180px;
+	top:10px;
+	color: #ff1f1f;
+}
+.dob_error_D{
+	position:relative;
+	left: 400px;
+	top: -5px;
+	color: #ff1f1f;
+}
+
+
+.profession_error_D{
+	position:relative;
+	left: 178px;
+	top:47px;
+	color: #ff1f1f;
+}
+.department_error_D{
+	position:relative;
+	left: 350px;
+	top: 10px;
+	color: #ff1f1f;
+}
+
+
+.address_error_D{
+	position:relative;
+	left: 180px;
+	top: 30px;
+	color: #ff1f1f;
+}
+
